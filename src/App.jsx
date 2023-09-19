@@ -1,11 +1,13 @@
-
 import './App.css'
+import NavBar from './components/NavBar/NavBar'
+// import DaisyNav from './components/daysyNav/DaisyNav'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-7xl'>Vite + React</h1>
+      <NavBar></NavBar>
+      {/* <DaisyNav></DaisyNav> */}
     </>
   )
 }
