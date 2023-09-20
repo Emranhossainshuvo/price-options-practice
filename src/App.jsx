@@ -1,14 +1,15 @@
 import './App.css'
+import PriceOptions from './PriceOptions/PriceOptions'
 import NavBar from './components/NavBar/NavBar'
-// import DaisyNav from './components/daysyNav/DaisyNav'
 
 function App() {
 
   return (
-    <>
+    <div className='container mx-auto'>
       <NavBar></NavBar>
       {/* <DaisyNav></DaisyNav> */}
-    </>
+      <PriceOptions></PriceOptions>
+    </div>
   )
 }
 
